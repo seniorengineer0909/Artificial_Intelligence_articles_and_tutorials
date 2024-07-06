@@ -38,7 +38,7 @@ As training proceeds, both models get better and better at their jobs in an adve
 
 ## GAN example on Fashion_MNIST
 
-The full code of this GAN example can be found in [***this repository***](https://github.com/sungsujaing/ML_DL_articles_resources/blob/master/Code%20appendix/Fashion_image_generator_using_GAN%20and%20WGAN.ipynb).
+The full code of this GAN example can be found in [***this repository***](https://github.com/alexbrowntiger/ML_DL_articles_resources/blob/master/Code%20appendix/Fashion_image_generator_using_GAN%20and%20WGAN.ipynb).
 
 ### Import modules and define configurations
 
@@ -281,7 +281,7 @@ One of the most critical disadvantages of GAN is that the loss does not really c
 
 **Wasserstein Generative and Adversarial Network (WGAN)**, an extension of GAN, utilizes a different loss function from GAN. WGAN, therefore, can be easily built upon the original GAN model with a few modifications. Wasserstein Distance, the loss function of WGAN, is a measure of the distance between two probability distributions and WGAN loss function reflects the image quality.
 
-While the full codes to implement WGAN on Fashion_MNIST is presented [***HERE***](https://github.com/sungsujaing/ML_DL_articles_resources/blob/master/Code%20appendix/Fashion_image_generator_using_GAN%20and%20WGAN.ipynb), the critical modifications that define WGAN include:
+While the full codes to implement WGAN on Fashion_MNIST is presented [***HERE***](https://github.com/alexbrowntiger/ML_DL_articles_resources/blob/master/Code%20appendix/Fashion_image_generator_using_GAN%20and%20WGAN.ipynb), the critical modifications that define WGAN include:
 
 - In WGAN, a discriminator is replaced by a critic to score the realness (or fakeness) of a given image, where the difference between the scores is as large as possible (WGAN encourages the critic to output scores that are different for real and fake images)
 - Wasserstein loss to train the critic and generator models
@@ -308,7 +308,7 @@ While the full codes to implement WGAN on Fashion_MNIST is presented [***HERE***
 
 ## StyleGAN
 
-Another very interesting extension of GAN includes [NVIDIA's StyleGAN](https://arxiv.org/pdf/1812.04948.pdf) introduced in 2018. StyleGAN generates extremely realistic images of human faces. The pre-trained model and weights are available in their repository and they can be used to generate the highly resolved fake human face images from Jupyter notebook. The full code to implement StyleGAN can be found [***HERE***](https://github.com/sungsujaing/ML_DL_articles_resources/blob/master/Code%20appendix/NVIDIA_style_GAN_face_gen_example.ipynb).
+Another very interesting extension of GAN includes [NVIDIA's StyleGAN](https://arxiv.org/pdf/1812.04948.pdf) introduced in 2018. StyleGAN generates extremely realistic images of human faces. The pre-trained model and weights are available in their repository and they can be used to generate the highly resolved fake human face images from Jupyter notebook. The full code to implement StyleGAN can be found [***HERE***](https://github.com/alexbrowntiger/ML_DL_articles_resources/blob/master/Code%20appendix/NVIDIA_style_GAN_face_gen_example.ipynb).
 
 First, we need to clone the StyleGAN repository as:
 

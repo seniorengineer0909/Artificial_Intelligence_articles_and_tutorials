@@ -51,7 +51,7 @@ As described in the image above, CPUs (preparing input data) and accelerators (t
 
 ## Distributed training with Keras - sample codes for training image classification on MNIST
 
-In order to demonstrate the model building process using `tf.keras` API for distributed training, an arbitrary model can be built to classify MNIST digits. Please note that this model was meant to be highly simple, not necessarily producing the best model. The full codes and the output results are presented [***HERE***](https://github.com/sungsujaing/ML_DL_articles_resources/blob/master/Code%20appendix/Exploring%20distributed%20training%20with%20keras%20and%20tensorflow%20data%20module.ipynb) - it should be noted that the following codes were tested on my Macbook Pro without an accelerator for demonstration purposes. Therefore, the actual distributed training was not happening, but the same codes can be utilized to scale up the training.
+In order to demonstrate the model building process using `tf.keras` API for distributed training, an arbitrary model can be built to classify MNIST digits. Please note that this model was meant to be highly simple, not necessarily producing the best model. The full codes and the output results are presented [***HERE***](https://github.com/alexbrowntiger/ML_DL_articles_resources/blob/master/Code%20appendix/Exploring%20distributed%20training%20with%20keras%20and%20tensorflow%20data%20module.ipynb) - it should be noted that the following codes were tested on my Macbook Pro without an accelerator for demonstration purposes. Therefore, the actual distributed training was not happening, but the same codes can be utilized to scale up the training.
 
 ```python
 import tensorflow as tf

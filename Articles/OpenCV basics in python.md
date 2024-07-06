@@ -2,7 +2,7 @@
 
 **OpenCV** (Open source Computer Vision) is an open-source software library that supports various applications in the field of real-time computer vision. Initially released about two decades ago by Intel, it has become one of the most popular and powerful libraries required in many deep learning projects. It was originally written in C++, but this article would like to focus on the basic/fundamental uses of this library in Python, especially in the Jupyter notebook environment. The purpose of this article is to provide the practical examples of the usages of some basic OpenCV algorithms on ***images and videos*** so that one can build upon the projects more easily. 
 
-* Codes (full version): [HERE](https://github.com/sungsujaing/ML_DL_articles_resources/blob/master/Code%20appendix/OpenCV_tutorial.ipynb)
+* Codes (full version): [HERE](https://github.com/alexbrowntiger/ML_DL_articles_resources/blob/master/Code%20appendix/OpenCV_tutorial.ipynb)
 * OpenCV official document: [HERE](https://docs.opencv.org/3.0-beta/index.html)
 
 ## Install and import OpenCV

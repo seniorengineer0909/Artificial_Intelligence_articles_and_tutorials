@@ -57,9 +57,9 @@ It should be acknowledged that, even though the one-shot learning requires only 
 
    `git clone https://github.com/iwantooxxoox/Keras-OpenFace.git`
 
-2. Or check out my custom implementation [**HERE**](https://github.com/sungsujaing/TV_time_tracking_face_recognition) where the models/weights are callable from the custom helper module `model_openface.py`. The following examples will be based on this option.
+2. Or check out my custom implementation [**HERE**](https://github.com/alexbrowntiger/TV_time_tracking_face_recognition) where the models/weights are callable from the custom helper module `model_openface.py`. The following examples will be based on this option.
 
-   `git clone https://github.com/sungsujaing/TV_time_tracking_face_recognition.git`
+   `git clone https://github.com/alexbrowntiger/TV_time_tracking_face_recognition.git`
 
 It should be noted that this example uses OpenCV's `face_cascade.detectMultiScale()` classifier for general face detection while the pre-trained OpenFace model/weights are used for face embedding. Before start, please create the following two folders:
 
@@ -249,4 +249,4 @@ Expected output:
 
 <p align="center"><img src="../images/face_recognition_image_result_example.png" width="65%"></p>
 
-This idea can be simply extended to real-time modules (with video or webcam inputs). Some examples can be found in my original [repository](https://github.com/sungsujaing/TV_time_tracking_face_recognition).
+This idea can be simply extended to real-time modules (with video or webcam inputs). Some examples can be found in my original [repository](https://github.com/alexbrowntiger/TV_time_tracking_face_recognition).

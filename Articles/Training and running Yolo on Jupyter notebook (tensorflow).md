@@ -106,7 +106,7 @@ plt.subplots_adjust(left=0.2, wspace=0)
 Expected output:
 
 <p align="center"><img src="../images/TRYJN_test_image_output.png" width="500"></p>
-This idea can be simply extended to real-time object detection on saved/live-stream videos. Some examples can be found in my [HappyDogDetector project](https://github.com/sungsujaing/Happy_Dog_Detection). 
+This idea can be simply extended to real-time object detection on saved/live-stream videos. Some examples can be found in my [HappyDogDetector project](https://github.com/alexbrowntiger/Happy_Dog_Detection). 
 
 ## Darkflow framework and basic configuration to *train a customized YOLO* (transfer learning)
 
@@ -130,7 +130,7 @@ In addition to the configuration described above:
 
 ### Custom dataset preparation
 
-- collect images for custom object detection (> 300 images at least) - one of the easiest ways is to scrap them from online. For this option, check out [this article](https://github.com/sungsujaing/ML_DL_articles_resources/blob/master/Articles/Preparing%20your%20own%20image%20dataset.md) about `google_images_downloads` module.
+- collect images for custom object detection (> 300 images at least) - one of the easiest ways is to scrap them from online. For this option, check out [this article](https://github.com/alexbrowntiger/ML_DL_articles_resources/blob/master/Articles/Preparing%20your%20own%20image%20dataset.md) about `google_images_downloads` module.
 - Label images using `labelimg` - a graphical image annotation tool for object/bouding_box labeling. The prebuilt binary can be downloaded [HERE](http://tzutalin.github.io/labelImg/) while the [official repository](https://github.com/tzutalin/labelImg) also contains lots of useful information.
 
 ### Training

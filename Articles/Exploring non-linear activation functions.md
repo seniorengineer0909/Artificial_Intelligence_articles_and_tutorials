@@ -45,7 +45,7 @@ Typical examples of activation functions widely used today include:
 
 ## Simple experiment on the MNIST dataset_simple NN
 
-In order to compare performances of models that are constructed with different activation functions, the famous MNIST dataset was used (classifying the hand-written digits). The full details of the testing code can be found ***[HERE](https://github.com/sungsujaing/ML_DL_articles_resources/blob/master/Code%20appendix/Activation_funtion_experiment.ipynb)***. Constructing the best model was not the main purpose in this experiment, so a simple fully-connected neural network was built with arbitrary hidden layers and units as shown below. In this case, ***stochastic gradient descent*** was chosen as an optimizer, but the code is flexible to other types as well.
+In order to compare performances of models that are constructed with different activation functions, the famous MNIST dataset was used (classifying the hand-written digits). The full details of the testing code can be found ***[HERE](https://github.com/alexbrowntiger/ML_DL_articles_resources/blob/master/Code%20appendix/Activation_funtion_experiment.ipynb)***. Constructing the best model was not the main purpose in this experiment, so a simple fully-connected neural network was built with arbitrary hidden layers and units as shown below. In this case, ***stochastic gradient descent*** was chosen as an optimizer, but the code is flexible to other types as well.
 
 <p align="center"><img src="../images/activation_test_model_nn.png" width="750"></p>
 
@@ -67,7 +67,7 @@ Some misclassified examples (by the tested NN) are displayed below.
 
 ## Simple experiment on the MNIST dataset_simple CNN
 
-The same study was done, but using a CNN model. The full details of the testing code can be found ***[HERE](https://github.com/sungsujaing/ML_DL_articles_resources/blob/master/Code%20appendix/Activation_funtion_experiment.ipynb)***. Constructing the best model was not the main purpose in this experiment, so a simple convolutional neural network was built with arbitrary hidden layers and filters as shown below. Same as before, ***stochastic gradient descent*** was chosen as an optimizer, but the code is flexible to other types as well.
+The same study was done, but using a CNN model. The full details of the testing code can be found ***[HERE](https://github.com/alexbrowntiger/ML_DL_articles_resources/blob/master/Code%20appendix/Activation_funtion_experiment.ipynb)***. Constructing the best model was not the main purpose in this experiment, so a simple convolutional neural network was built with arbitrary hidden layers and filters as shown below. Same as before, ***stochastic gradient descent*** was chosen as an optimizer, but the code is flexible to other types as well.
 
 <p align="center"><img src="../images/activation_test_model_cnn.png" width="750"></p>
 
